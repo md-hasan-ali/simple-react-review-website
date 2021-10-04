@@ -4,8 +4,7 @@ import { Card, Col } from 'react-bootstrap';
 import './Service.css'
 
 const Service = (props) => {
-    console.log(props.service)
-    const { name, price, img } = props.service;
+    const { name, price, img, desc } = props.service;
     return (
         <Col>
             <Card>
@@ -14,8 +13,7 @@ const Service = (props) => {
                     <Card.Title>{name}</Card.Title>
                     <h4>Price : {price}</h4>
                     <Card.Text>
-                        This is a longer card with supporting text below as a natural
-                        lead-in to additional content. This content is a little bit longer.
+                        {desc}
                     </Card.Text>
                     <Button className='btn btn-success'>Contact Us</Button>
                 </Card.Body>

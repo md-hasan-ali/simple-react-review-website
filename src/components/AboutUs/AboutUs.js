@@ -11,7 +11,7 @@ const AboutUs = () => {
                     <div className="row align-items-center">
                         <div className="col-md-6">
                             <h3>About Me</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex maiores eius ullam cumque vero placeat consequuntur quasi, repudiandae voluptates hic debitis id delectus repellendus soluta exercitationem tempora eaque, a velit!</p>
+                            <p>Hi,I am Hasan Ali and I am a Web developer of JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation</p>
                             <button className='btn btn-danger'>About Us</button>
                         </div>
                         <div className="col-md-6">

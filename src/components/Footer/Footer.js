@@ -14,10 +14,10 @@ const Footer = () => {
                         <div className="social-icon">
                             <h4>Social Icon</h4>
                             <ul>
-                                <i class="fab fa-facebook-square"></i>
-                                <i class="fab fa-youtube-square"></i>
-                                <i class="fab fa-twitter-square"></i>
-                                <i class="fab fa-linkedin"></i>
+                                <i className="fab fa-facebook-square"></i>
+                                <i className="fab fa-youtube-square"></i>
+                                <i className="fab fa-twitter-square"></i>
+                                <i className="fab fa-linkedin"></i>
                             </ul>
                         </div>
                     </div>
