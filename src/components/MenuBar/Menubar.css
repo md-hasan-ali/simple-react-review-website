@@ -1,0 +1,17 @@
+.navbar {
+    padding: 0;
+    background-color: #0E223B;
+}
+.navbar-brand {
+    width: 50%;
+    text-align: left;
+    padding:0px;
+}
+.logo-img img {
+    width:200px;
+}
+.menubar a {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
