@@ -1,7 +1,9 @@
+// Adding necessary file
 import React from 'react';
 import './ContactUs.css'
 import image from '../../images/contact-img.jpg'
 
+// Contact Us Conponent Start
 const ContactUs = () => {
     return (
         <div className='contact-area'>
@@ -29,3 +31,5 @@ const ContactUs = () => {
 };
 
 export default ContactUs;
+
+// Contact Us Conponent End

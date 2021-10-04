@@ -1,6 +1,8 @@
+// Adding necessary file
 import React from 'react';
 import './notfound.css'
 
+// PageNotFound component Start
 const PageNotFound = () => {
     return (
         <div className='error-page'>
@@ -10,3 +12,5 @@ const PageNotFound = () => {
 };
 
 export default PageNotFound;
+
+// PageNotFound component End

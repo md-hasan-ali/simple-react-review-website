@@ -15,7 +15,7 @@ import PageNotFound from './components/PageNotFound/PageNotFound';
 import Servicess2 from './components/Servicess2/Servicess2';
 import ContactUs from './components/ContactUs/ContactUs';
 
-
+// Declear Route 
 function App() {
   return (
     <div className="App">
@@ -33,7 +33,6 @@ function App() {
           <Route path="/about">
             <AboutUs></AboutUs>
           </Route>
-
 
           <Route path="/services">
             <Servicess2></Servicess2>

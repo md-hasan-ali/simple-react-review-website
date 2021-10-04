@@ -3,6 +3,7 @@ import React from 'react';
 import { useHistory } from 'react-router';
 import './Banner.css'
 
+// Banner Component Start 
 const Banner = () => {
     const history = useHistory()
     const handleButton = () => {
@@ -26,3 +27,4 @@ const Banner = () => {
 };
 
 export default Banner;
+// Banner Component End

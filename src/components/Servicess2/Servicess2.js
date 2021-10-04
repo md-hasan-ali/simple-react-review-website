@@ -1,7 +1,9 @@
+// Adding necessary file
 import Button from '@restart/ui/esm/Button';
 import React, { useEffect, useState } from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 
+// Servicess2 Component Start 
 const Servicess2 = () => {
     const [cource, setCource] = useState([])
     useEffect(() => {
@@ -38,3 +40,5 @@ const Servicess2 = () => {
 };
 
 export default Servicess2;
+
+// Servicess2 Component End 

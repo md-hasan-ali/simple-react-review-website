@@ -1,6 +1,8 @@
+// Adding necessary file
 import React from 'react';
 import './Footer.css'
 
+// Footer Component Start 
 const Footer = () => {
     return (
         <footer className='Footer'>
@@ -28,3 +30,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
+// Footer Component End

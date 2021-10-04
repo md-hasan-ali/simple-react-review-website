@@ -1,9 +1,11 @@
+// Adding necessary file
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 import './Service.css'
 
+// Service Component Start 
 const Service = (props) => {
     const { name, price, img, desc } = props.service;
     const histriy = useHistory();
@@ -28,3 +30,5 @@ const Service = (props) => {
 };
 
 export default Service;
+
+// Service Component End

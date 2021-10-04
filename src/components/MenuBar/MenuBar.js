@@ -1,10 +1,11 @@
+// Adding necessary file
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import './Menubar.css'
 import logo from '../../images/logo-img.jpg'
 import { Link } from 'react-router-dom';
 
-
+// Menuber Component Start
 const MenuBar = () => {
     return (
         <div>
@@ -26,3 +27,5 @@ const MenuBar = () => {
 };
 
 export default MenuBar;
+
+// Menuber Component End

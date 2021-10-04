@@ -1,7 +1,9 @@
+// Adding necessary file
 import React from 'react';
 import img from '../../images/about.jpg'
 import './AboutUs.css'
 
+// About Us Component Start
 const AboutUs = () => {
     return (
         <div>
@@ -24,5 +26,5 @@ const AboutUs = () => {
 
     );
 };
-
 export default AboutUs;
+// About Us Component End
