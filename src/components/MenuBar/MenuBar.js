@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import './Menubar.css'
 import logo from '../../images/logo-img.jpg'
+import { Link } from 'react-router-dom';
 
 
 const MenuBar = () => {
@@ -13,10 +14,10 @@ const MenuBar = () => {
                         <img src={logo} alt="" />
                     </Navbar.Brand>
                     <Nav className="ms-auto menubar">
-                        <Nav.Link className='text-white' href="#home">Home</Nav.Link>
-                        <Nav.Link className='text-white' href="#features">About Us</Nav.Link>
-                        <Nav.Link className='text-white' href="#pricing">Services</Nav.Link>
-                        <Nav.Link className='text-white' href="#pricing">Contact Us</Nav.Link>
+                        <Link className='text-white' to="/home">Home</Link>
+                        <Link className='text-white' to="/about">About Us</Link>
+                        <Link className='text-white' to="/services">Services</Link>
+                        <Link className='text-white' to="/contact">Contact Us</Link>
                     </Nav>
                 </Container>
             </Navbar>

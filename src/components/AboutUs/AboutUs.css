@@ -1,0 +1,20 @@
+.about-page {
+    background-color: lightslategray;
+    padding:70px 0;
+    color:#fff;
+}
+.title {
+    font-size: 40px;
+    color:#fff;
+    position: relative;
+}
+.title::before {
+    position: absolute;
+    content: '';
+    width: 70px;
+    height: 2px;
+    background-color: lime;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}

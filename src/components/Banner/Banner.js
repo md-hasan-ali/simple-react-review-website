@@ -1,11 +1,9 @@
 import React from 'react';
-import MenuBar from '../MenuBar/MenuBar';
 import './Banner.css'
 
 const Banner = () => {
     return (
         <div className='banner-container'>
-            <MenuBar></MenuBar>
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
