@@ -1,7 +1,13 @@
+// Adding necessary file
 import React from 'react';
+import { useHistory } from 'react-router';
 import './Banner.css'
 
 const Banner = () => {
+    const history = useHistory()
+    const handleButton = () => {
+        history.push('/contact')
+    }
     return (
         <div className='banner-container'>
             <div className="container">
@@ -10,7 +16,7 @@ const Banner = () => {
                         <div className="banner-content">
                             <h1>Programming Learning Website</h1>
                             <h4>Let's devlop your future with codding</h4>
-                            <button className='btn btn-danger'>Contact Us</button>
+                            <button onClick={handleButton} className='btn btn-danger'>Contact Us</button>
                         </div>
                     </div>
                 </div>
