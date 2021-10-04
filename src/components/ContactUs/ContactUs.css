@@ -3,6 +3,7 @@
     padding:60px 0;
     background-image: url('../../images/images.png');
     position: relative;
+    background-attachment: fixed;
     z-index: 1;
     color:#fff;
 }
@@ -20,7 +21,7 @@
 .contact-form input, textarea {
     width: 100%;
     margin-bottom: 10px;
-    padding:5px;
+    padding:8px;
     border-radius: 5px;
 }
 .contact-img {
@@ -30,5 +31,5 @@
     border: 10px solid #fff;
     border-radius: 5px;
     border-color: lightblue;
-    height: 395px;
+    height: 420px;
 }

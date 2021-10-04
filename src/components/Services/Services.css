@@ -1,0 +1,15 @@
+/* Services component design  */
+.serch-box {
+    padding-bottom: 40px;
+    margin-top:-20px;
+}
+.serch-box input {
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 320px;
+    margin-right: 10px;
+}
+.serch-box button {
+    margin-top: -5px;
+}

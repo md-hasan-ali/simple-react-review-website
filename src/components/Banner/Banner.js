@@ -9,6 +9,9 @@ const Banner = () => {
     const handleButton = () => {
         history.push('/contact')
     }
+    const handleButton1 = () => {
+        history.push('/services')
+    }
     return (
         <div className='banner-container'>
             <div className="container">
@@ -17,7 +20,9 @@ const Banner = () => {
                         <div className="banner-content">
                             <h1>Programming Learning Website</h1>
                             <h4>Let's devlop your future with codding</h4>
-                            <button onClick={handleButton} className='btn btn-danger'>Contact Us</button>
+                            <button onClick={handleButton} className='btn btn-danger me-2'>Contact Us</button>
+
+                            <button onClick={handleButton1} className='btn btn-success'>Our Services</button>
                         </div>
                     </div>
                 </div>
