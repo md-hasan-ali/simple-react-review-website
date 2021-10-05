@@ -19,7 +19,7 @@ const Services = () => {
         setSearchText(search)
     }
     return (
-        <div className='Services-area my-5'>
+        <div className='Services-area py-5'>
             <div className='container'>
                 <h2 className='pb-5 title text-dark'>Our Services</h2>
                 <div className="serch-box">

@@ -1,4 +1,7 @@
 /* Services component design  */
+.Services-area {
+    background-color: #f7f7ff;
+}
 .serch-box {
     padding-bottom: 40px;
     margin-top:-20px;

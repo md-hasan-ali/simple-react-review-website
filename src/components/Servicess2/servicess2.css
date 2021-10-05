@@ -1,3 +1,10 @@
+.all-services {
+    background-color: #f7f7f7;
+}
 .single-card {
     height: 600px;
+    transition: .5s;
+}
+.single-card:hover {
+    box-shadow: 5px 5px 7px gray;
 }

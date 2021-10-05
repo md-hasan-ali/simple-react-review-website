@@ -4,4 +4,8 @@
 }
 .single-card-item {
     height: 525px;
+    transition: .5s;
+}
+.single-card-item:hover {
+    box-shadow: 5px 5px 7px lightslategrey;
 }

@@ -29,10 +29,20 @@
 .title::before {
     position: absolute;
     content: '';
-    width: 70px;
-    height: 2px;
+    width: 80px;
+    height: 3px;
     background-color: lime;
     bottom: 40px;
     left: 50%;
+    transform: translateX(-50%);
+}
+.title::after {
+    position:absolute;
+    content: '';
+    width: 20px;
+    height: 8px;
+    background-color: hotpink;
+    left: 50%;
+    bottom: 38px;
     transform: translateX(-50%);
 }

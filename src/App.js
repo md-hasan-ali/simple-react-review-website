@@ -15,7 +15,7 @@ import PageNotFound from './components/PageNotFound/PageNotFound';
 import Servicess2 from './components/Servicess2/Servicess2';
 import ContactUs from './components/ContactUs/ContactUs';
 
-// Declear Route 
+// Declear Route And add component..
 function App() {
   return (
     <div className="App">
@@ -45,7 +45,6 @@ function App() {
           <Route path="*">
             <PageNotFound></PageNotFound>
           </Route>
-
         </Switch>
         <Footer></Footer>
       </Router>
