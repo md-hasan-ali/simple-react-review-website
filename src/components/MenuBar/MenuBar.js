@@ -11,9 +11,9 @@ const MenuBar = () => {
         <div>
             <Navbar variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home" className='logo-img'>
+                    <Link to="/home" className='logo-img'>
                         <img src={logo} alt="" />
-                    </Navbar.Brand>
+                    </Link>
                     <Nav className="ms-auto menubar">
                         <Link className='text-white' to="/home">Home</Link>
                         <Link className='text-white' to="/about">About Us</Link>
