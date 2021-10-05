@@ -1,8 +1,8 @@
 // Adding necessary file
-import Button from '@restart/ui/esm/Button';
 import React, { useEffect, useState } from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 import { useHistory } from 'react-router';
+import './servicess2.css'
 
 // Servicess2 Component Start 
 const Servicess2 = () => {
@@ -20,11 +20,11 @@ const Servicess2 = () => {
         <div className='all-services pb-5'>
             <h2 className='py-5 title text-dark'>Our All Services</h2>
             <div className="container">
-                <Row xs={1} md={2} className="g-4">
+                <Row xs={1} md={3} className="g-4">
                     {
                         cource.map((service) => (
                             <Col key={service.key}>
-                                <Card>
+                                <Card className='single-card'>
                                     <Card.Img variant="top" src={service.img} />
                                     <Card.Body>
                                         <Card.Title> <strong>Cource Name </strong>: {service.name}</Card.Title>
@@ -32,7 +32,7 @@ const Servicess2 = () => {
                                         <Card.Text>
                                             {service.desc}
                                         </Card.Text>
-                                        <Button onClick={clickButton} className='btn btn-success'>Contact Us</Button>
+                                        <button onClick={clickButton} className='btn btn-success'>Contact Us</button>
                                     </Card.Body>
                                 </Card>
                             </Col>

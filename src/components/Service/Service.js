@@ -1,5 +1,4 @@
 // Adding necessary file
-import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 import { useHistory } from 'react-router';
@@ -14,7 +13,7 @@ const Service = (props) => {
     }
     return (
         <Col>
-            <Card>
+            <Card className='single-card-item'>
                 <Card.Img variant="top" src={img} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
@@ -22,7 +21,7 @@ const Service = (props) => {
                     <Card.Text>
                         {desc}
                     </Card.Text>
-                    <Button onClick={buttonClick} className='btn btn-success'>Contact Us</Button>
+                    <button onClick={buttonClick} className='btn btn-success'>Contact Us</button>
                 </Card.Body>
             </Card>
         </Col>

@@ -3,19 +3,12 @@
         "key": "f1f4f2f1",
         "name": "Web-Design (HTML, CSS, BOOTSTRAP)",
         "price": "$150",
-        "desc": "Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include.",
+        "desc": "Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include.web desing is very good for any learner",
         "img": "https://nite.ac.bd/wp-content/uploads/2020/09/webdesign-services-why-i-should-have-a-website-for-my-business.jpg"
     },
     {
-        "key": "f1f4f2f2",
-        "name": "Web-Development (HTML, CSS, BOOTSTRAP, REACT JS)",
-        "price": "$180",
-        "desc": "Web development is the work involved in developing a Web site for the Internet or an intranet. Web development can range from developing.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoWRrKVOo5pxjeiCgE4lyGNkp1ZTRlM5OH_Q&usqp=CAU"
-    },
-    {
         "key": "f1f4f2f3",
-        "name": "PHP (Development)",
+        "name": "PHP (Full Web-Development)",
         "price": "$130",
         "desc": "PHP is a general-purpose scripting language geared towards web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994. The PHP reference implementation",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkZiHEowvS0f-xLu6FQYr_s_OaF61BG5zdEg&usqp=CAU"
@@ -36,9 +29,9 @@
     },
     {
         "key": "f1f4f2f6",
-        "name": "C# (Programming)",
+        "name": "C# (Programming Beginner)",
         "price": "$140",
-        "desc": "C# is a general-purpose, multi-paradigm programming language. C# encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic",
+        "desc": "C# is a general-purpose, multi-paradigm programming language. C# encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic and many more.",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7C3gPvlT4jgOKy2890jQVorwtm5TgnBRZ9g&usqp=CAU"
     },
     {
@@ -54,5 +47,12 @@
         "price": "$150",
         "desc": "Laravel is a free, open-source PHP web framework, created by Taylor Otwell and intended for the development of web applications following the model–view–controller architectural pattern ",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdSUrS5E4_EFG1ulmLYTdvtTYiaYXDlGaeMw&usqp=CAU"
+    },
+    {
+        "key": "f1f4f2f2",
+        "name": "Web-Development (HTML, CSS, BOOTSTRAP, REACT JS)",
+        "price": "$180",
+        "desc": "Web development is the work involved in developing a Web site for the Internet or an intranet. Web development can range from developing.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoWRrKVOo5pxjeiCgE4lyGNkp1ZTRlM5OH_Q&usqp=CAU"
     }
 ]

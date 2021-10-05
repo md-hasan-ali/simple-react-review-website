@@ -2,7 +2,7 @@
 .Footer {
     background-color: #0E223B;
     color:#fff;
-    padding:20px 0;
+    padding:40px 0;
 }
 .social-icon ul {
     list-style: none;
@@ -19,4 +19,14 @@
     border-radius: 50%;
     cursor: pointer;
     margin-top:5px;
+}
+.footer-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
 }
