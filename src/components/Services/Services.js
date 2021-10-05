@@ -1,6 +1,6 @@
 // Adding necessary file
 import React, { useEffect, useState } from 'react';
-import { Row } from 'react-bootstrap';
+import { Button, Row, Spinner } from 'react-bootstrap';
 import Service from '../Service/Service';
 import './Services.css'
 
@@ -26,14 +26,27 @@ const Services = () => {
                     <input onChange={handleSearch} placeholder='Search you favorite Course' type="text" />
                     <button className='btn btn-danger'>Search</button>
                 </div>
-                <Row xs={1} md={2} className="g-4">
-                    {
-                        servicess?.map(service => <Service
-                            key={service.key}
-                            service={service}
-                        ></Service>)
-                    }
-                </Row>
+                {
+                    // Add Spinner
+                    servicess.length === 0 ? <Button variant="primary" disabled>
+                        <Spinner
+                            as="span"
+                            animation="grow"
+                            size="sm"
+                            role="status"
+                            aria-hidden="true"
+                        />
+                        Loading...
+                    </Button> :
+                        <Row xs={1} md={2} className="g-4">
+                            {
+                                servicess?.map(service => <Service
+                                    key={service.key}
+                                    service={service}
+                                ></Service>)
+                            }
+                        </Row>
+                }
             </div>
         </div>
     );
